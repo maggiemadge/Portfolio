@@ -9,6 +9,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { SiMui } from "react-icons/si";
 
 const skills = [
   {
@@ -34,6 +35,10 @@ const skills = [
   {
     skill: "Redux",
     icon: SiRedux,
+  },
+  {
+    skill: "Material UI",
+    icon: SiMui,
   },
   {
     skill: "NextJS",

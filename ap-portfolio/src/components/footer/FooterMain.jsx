@@ -43,7 +43,7 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[120px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
+      <p className="max-w-[260px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
         © 2025 Magdalene | All Rights Reserved.
       </p>
     </div>

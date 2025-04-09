@@ -8,7 +8,7 @@ const projects = [
     name: "WAEC E-study",
     year: "Mar2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "../../public/images/website-img-1.jpeg",
     link: "https://estudy.ng/"
   },
   {
@@ -22,14 +22,14 @@ const projects = [
     name: "Saint Albert University",
     year: "Jan 2025",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "../../public/images/website-img-3.jpeg",
     link: "#",
   },
   {
     name: "E-Library",
     year: "March 2025",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "../../public/images/website-img-3.jpeg",
     link: "#",
   },
 ];

@@ -75,4 +75,9 @@ button:focus-visible {
 
 body{
   @apply bg-darkBrown;
+  overflow-x: hidden;
 }
+/* body {
+  width: 100%;
+  box-sizing: border-box;
+} */

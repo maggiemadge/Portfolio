@@ -6,17 +6,6 @@ import { fadeIn } from "../../framerMotion/variants";
 const experiences = [
   {
     job: "Front-End Developer",
-    company: "Sidmach Technologies",
-    date: "2021 - Present",
-    responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
-    ],
-  },
-  {
-    job: "Front-End Developer",
     company: "Nucamp",
     date: "2023 - Present",
     responsibilities: [
@@ -28,11 +17,22 @@ const experiences = [
   {
     job: "FreeLancer",
     company: "Sprints",
-    date: "2024 - Present",
+    date: "2023",
     responsibilities: [
       "Teaching JavaScript, React and TailwindCSS.",
       "Participating in preparing course materials.",
       "Helping students through their way in learning web development technologies.",
+    ],
+  },
+  {
+    job: "Front-End Developer",
+    company: "Sidmach Technologies",
+    date: "2021 - Present",
+    responsibilities: [
+      "Implementing reusable components.",
+      "Participating in large scale application.",
+      "Working on the performance of web applications.",
+      "Generating new ideas for better user experience.",
     ],
   },
 ];
