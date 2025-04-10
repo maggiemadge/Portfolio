@@ -8,28 +8,28 @@ const projects = [
     name: "WAEC E-study",
     year: "Mar2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpeg",
+    image: "images/website-img-1.jpeg",
     link: "https://estudy.ng/"
   },
   {
     name: "JAMB QR Code Scanner",
     year: "Aug 2024",
     align: "left",
-    image: "../../public/images/Jamb.jpg",
+    image: "images/Jamb.jpg",
     link: "https://play.google.com/store/apps/details?id=com.sidmach.jambqrcodescanner",
   },
   {
     name: "Saint Albert University",
     year: "Jan 2025",
     align: "right",
-    image: "../../public/images/website-img-3.jpeg",
+    image: "images/website-img-3.jpeg",
     link: "#",
   },
   {
     name: "E-Library",
     year: "March 2025",
     align: "left",
-    image: "../../public/images/website-img-3.jpeg",
+    image: "images/website-img-3.jpeg",
     link: "#",
   },
 ];

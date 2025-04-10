@@ -2,7 +2,7 @@
 
 
 // import NavbarToggler from "./NavbarToggler";
- import { useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import NavbarBtn from "./NavbarBtn";
 import NavbarLinks from "./NavBarLinks";
