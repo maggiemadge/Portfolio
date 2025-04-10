@@ -16,16 +16,18 @@ const ContactForm = () => {
     setMessage(e.target.value);
   };
   const form = useRef();
+
+
   const sendEmail = (e) => {
    
     e.preventDefault();
     emailjs
     .sendForm(
-      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, 
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
       form.current, 
       {
-        publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+        publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       }
     ).then(
         () => {
@@ -49,7 +51,7 @@ const ContactForm = () => {
           name="name"
           placeholder="Your Name"
           required
-          className="h-12 rounded-lg bg-lightBrown px-2"
+          className="h-12 rounded-lg bg-lightBrown px-2 text-white"
           value={name}
           onChange={handleName}
         />
@@ -58,7 +60,7 @@ const ContactForm = () => {
           name="email"
           placeholder="Your Email"
           required
-          className="h-12 rounded-lg bg-lightBrown px-2"
+          className="h-12 rounded-lg bg-lightBrown px-2 text-white"
           value={email}
           onChange={handleEmail}
         />
@@ -69,7 +71,7 @@ const ContactForm = () => {
           cols="50"
           placeholder="Message"
           required
-          className=" rounded-lg bg-lightBrown p-2"
+          className=" rounded-lg bg-lightBrown p-2 text-white"
           value={message}
           onChange={handleMessage}
         />
