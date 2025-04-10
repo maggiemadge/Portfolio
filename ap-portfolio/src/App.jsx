@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 
 import './App.css'
 
@@ -12,7 +12,7 @@ import ExperienceMain from './components/experienceSection/ExperienceMain'
 import ProjectsMain from './components/projectSection/ProjectsMain'
 import ContactMeMain from './components/contactMeSection/ContactMeMain'
 import FooterMain from './components/footer/FooterMain'
-import NavBarMain from './components/navBar/NavBarMain'
+// import NavBarMain from './components/navBar/NavBarMain'
 
 
 
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div>
-        <NavBarMain />
+        {/* <NavBarMain /> */}
         <HeroMain />
         <HeroGradient />
         <SubHeroMain />
