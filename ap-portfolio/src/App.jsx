@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import NavbarMain from './components/navBar/NavBarMain'
+
 import HeroMain from './components/heroSection/HeroMain'
 import HeroGradient from './components/heroSection/HeroGradient'
 import SubHeroMain from './components/subHeroSection/SubHeroMain'
@@ -12,6 +12,7 @@ import ExperienceMain from './components/experienceSection/ExperienceMain'
 import ProjectsMain from './components/projectSection/ProjectsMain'
 import ContactMeMain from './components/contactMeSection/ContactMeMain'
 import FooterMain from './components/footer/FooterMain'
+import NavBarMain from './components/navBar/NavBarMain'
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
   return (
     <>
       <div>
-        <NavbarMain />
+        <NavBarMain />
         <HeroMain />
         <HeroGradient />
         <SubHeroMain />

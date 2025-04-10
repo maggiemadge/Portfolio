@@ -17,13 +17,17 @@ const ContactForm = () => {
   };
   const form = useRef();
   const sendEmail = (e) => {
-    debugger
+   
     e.preventDefault();
     emailjs
-      .sendForm("service_zv5jmki", "template_qpma0px", form.current, {
-        publicKey: "Y0iFIBdBELPJRbO5P",
-      })
-      .then(
+    .sendForm(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, 
+      form.current, 
+      {
+        publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      }
+    ).then(
         () => {
           setEmail("");
           setName("");
