@@ -12,7 +12,7 @@ import ExperienceMain from './components/experienceSection/ExperienceMain'
 import ProjectsMain from './components/projectSection/ProjectsMain'
 import ContactMeMain from './components/contactMeSection/ContactMeMain'
 import FooterMain from './components/footer/FooterMain'
-import NavBarMain from './components/navbar/NavBarMain'
+import NavBar from './components/NavBar'
 
 
 
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <div>
-        <NavBarMain />
+        <NavBar />
         <HeroMain />
         <HeroGradient />
         <SubHeroMain />

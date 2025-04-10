@@ -10,7 +10,7 @@ import NavbarLogo from "./NavBarLogo";
 import NavbarToggler from "./NavBarToggler";
 
 
-const NavBarMain = () => {
+const NavBar = () => {
     const menuOpen = useSelector((state) => state.menu.menuOpen);
     return (
 
@@ -31,4 +31,4 @@ const NavBarMain = () => {
     );
 };
 
-export default NavBarMain;
+export default NavBar;
